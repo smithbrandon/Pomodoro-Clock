@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://use.fontawesome.com/a045ba0005.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="clockFrame" class="white">
+            <div id="clockBody" class="white">
+                <h1 class="white"><span class="first">M</span>odern <span class="first">P</span>omodoro</h1>
+                <div id='counter'>
+                    <div id='work' class='workBreak white'>
+                        <h2 class='white'>WORK</h2>
+                        <div id="workDig" class="smallDig white">
+                            <div id='w' class='w'>0</div>
+                            <div id='ww' class='w'>0</div>
+                        </div>
+                    </div>
+                    <div id='break' class='workBreak off white'>
+                        <h2 class='white'>BREAK</h2>
+                        <div id="breakDig" class="smallDig off white">
+                            <div id='b' class='w'>0</div>
+                            <div id='bb' class='w'>0</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+                <div class='center'>
+                    <div id="digitContainer">
+                        <div id="time">
+                            <div id='hh' class='digit white'>9</div>
+                            <div id='h' class='digit white'>9</div>
+                            <div class='colon white'>:</div>
+                            <div id='mm' class='digit white'>9</div>
+                            <div id='m' class='digit white'>9</div>
+                            <div class='colon white'>:</div>
+                            <div id='ss' class='digit white'>9</div>
+                            <div id='s' class='digit white'>9</div>
+                        </div>
+                    </div>
+                </div>
+                <div id='btnBar'>
+                    <div id='adj'>
+                        <div id='dec' class='btn white'>-</div>
+                        <div id='inc' class='btn white'>+</div>
+                    </div>
+                    <div id='startBtn' class="white">START</div>
+                    <div id='adj'>
+                        <div id="bright" class='btn white'><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                        <div id='color' class='btn white'><i class="fa fa-cog" aria-hidden="true"></i></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
