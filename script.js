@@ -1,6 +1,13 @@
-var softReset = false, speedUp = false, increase = false, started = false;
-var editWork = false, editBreak = false, justReset = false;
-var timerId = 0, sessions = 0, brightness = 2;
+var softReset = false;
+var speedUp = false;
+var increase = false;
+var started = false;
+var editWork = false;
+var editBreak = false;
+var justReset = false;
+var timerId = 0;
+var sessions = 0;
+var brightness = 2;
 var colorScheme = 'white';
 var timers = [{
     id: "Work",
